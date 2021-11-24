@@ -1,0 +1,29 @@
+.navbar{
+    height: 50px;
+    background-color: rgb(185, 73, 96);
+    color: white;
+}
+.wrapper{
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+}
+.item{
+    margin-right: 20px;
+}
+.item2{
+    cursor: pointer;
+}
+.item2:hover{
+    text-decoration: underline;
+}

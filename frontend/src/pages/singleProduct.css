@@ -1,0 +1,33 @@
+.singleProduct{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singlePWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    border: 1px solid lightgray;
+}
+.left{
+    flex: 1;
+}
+.leftImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightItem{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
